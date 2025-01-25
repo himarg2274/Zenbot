@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenBot</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <!-- Character Selection Overlay -->
+    <div id="character-selection" class="overlay">
+        <div class="overlay-content">
+            <h2>Choose Your ZenBot Character</h2>
+            <button class="character-btn" data-character="Calm">Calm ZenBot</button>
+            <button class="character-btn" data-character="Motivational">Motivational ZenBot</button>
+            <button class="character-btn" data-character="Friendly">Friendly ZenBot</button>
+        </div>
+    </div>
+
+    <!-- Chat Interface -->
+    <div class="chat-container hidden">
+        <header class="chat-header">
+            <h1 id="character-title">ZenBot</h1>
+        </header>
+        <div id="chatbox" class="chatbox">
+            <!-- Messages will be dynamically appended here -->
+        </div>
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="static/scripts.js"></script>
+</body>
+</html>
