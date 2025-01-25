@@ -24,7 +24,6 @@ mood_keywords = {
     "empty": "Feeling empty can be tough. Maybe it helps to focus on what you enjoy, even if it’s just a little moment of peace or doing something small that brings you joy.",
     "guilty": "It sounds like you're carrying some guilt. It’s okay to make mistakes, and it's important to forgive yourself. Is there something specific on your mind that you'd like to talk about?",
     "confused": "Confusion can be tough, but it's okay to feel uncertain. Would you like to talk through what's on your mind?",
-    "excited": "That’s awesome! Excitement is contagious, and I can feel the energy. What's got you so pumped up?",
     "bored": "Boredom can be a sign you need to shake things up a bit. How about we try something new together?"
 }
 
