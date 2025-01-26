@@ -72,53 +72,58 @@ Folder Structure:
     static/scripts.js: JavaScript code that handles character selection, message sending, and dynamic updates to the chat interface.
     requirements.txt: File containing all the Python dependencies for the project (Flask, google-generativeai, etc.).
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot (1)](https://github.com/user-attachments/assets/92439de2-15ff-4e87-a539-fb3d8acda690)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+It enables the user to choose the character of the bot they want to talk to.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+!![Screenshot (2)](https://github.com/user-attachments/assets/f6b1408e-901b-4d5e-94dc-97395f738839)
+
+It is an interface where we are talking to calm zenbot
+!![Screenshot (3)](https://github.com/user-attachments/assets/0bf5576f-94eb-49a4-8ab9-7e5f738e0b13)
+It is an interface where we are talking to Friendly roaster zenbot
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+Welcome Page
+    |
+    |-- User clicks "Start"
+    V
+Character Selection Page
+    |
+    |-- User selects a character (Calm, Motivational, Friendly)
+    |-- Sends selection to /select-character endpoint
+    V
+Chat Interface
+    |
+    |-- User types a message and clicks "Send"
+    |-- Sends message to /chat endpoint
+    |
+    |-- Backend processes message:
+    |   - Retrieves selected character
+    |   - Generates AI response using the character model
+    |
+    |-- Response is returned to frontend
+    |-- Chat interface displays bot response
+End
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
-![Team](Add photo of your team here)
+![image](https://github.com/user-attachments/assets/03017d83-7dc5-44e0-ae92-1c1fc9d9ec7c)
+Our team(Brainy Bunch)
 
+[Build]
+To build your application, start by setting up the backend using Flask, ensuring all required packages like `Flask` and `google-generativeai` are installed. Place your backend code (`app.py`) in the root directory and ensure it includes routes for `/`, `/select-character`, and `/chat`. For the frontend, save the provided HTML in the `templates/` folder and CSS/JavaScript files in the `static/` folder, ensuring the files are correctly linked using Flask's `url_for` function. Test the workflow locally to verify that clicking "Start" redirects to the character selection page, character choices are sent to the `/select-character` route, and chat interactions send messages to `/chat`, returning AI-generated responses based on the selected character. Once functional, deploy the backend to platforms like Heroku or Render, including a `requirements.txt` and `Procfile`. Securely configure environment variables, such as your API keys, on the hosting platform. If needed, host the frontend separately and link it to the backend. Finally, thoroughly test the application in the deployed environment to ensure seamless functionality and a responsive user experience.
 
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Aleesha Mariam Sabu: Frontend
+- Hima Rose George: Backend
+- Eunice Freeda T: AI integration
 
 ---
 Made with ❤️ at TinkerHub
