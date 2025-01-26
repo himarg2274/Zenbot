@@ -79,7 +79,8 @@ Folder Structure:
 
 It enables the user to choose the character of the bot they want to talk to.
 
-!![Screenshot (2)](https://github.com/user-attachments/assets/f6b1408e-901b-4d5e-94dc-97395f738839)
+!![Screenshot (2)]![image](https://github.com/user-attachments/assets/4ea305c9-69ac-4eca-b64d-b5873ad07daa)
+
 
 It is an interface where we are talking to calm zenbot
 
