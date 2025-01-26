@@ -71,14 +71,18 @@ Folder Structure:
     static/styles.css: Styling for the ZenBot web interface.
     static/scripts.js: JavaScript code that handles character selection, message sending, and dynamic updates to the chat interface.
     requirements.txt: File containing all the Python dependencies for the project (Flask, google-generativeai, etc.).
-# Screenshots (Add at least 3)
-![Screenshot (1)](https://github.com/user-attachments/assets/92439de2-15ff-4e87-a539-fb3d8acda690)
+# Screenshots 
+![Screenshot (1)]![ss1]![image](https://github.com/user-attachments/assets/cb96ca97-770c-4400-ad8c-8f7a6e48ffa0)
+ Welcome page
+
+![image](https://github.com/user-attachments/assets/594c5968-0aa7-416e-9551-17d184e2aa81)
 
 It enables the user to choose the character of the bot they want to talk to.
 
 !![Screenshot (2)](https://github.com/user-attachments/assets/f6b1408e-901b-4d5e-94dc-97395f738839)
 
 It is an interface where we are talking to calm zenbot
+
 !![Screenshot (3)](https://github.com/user-attachments/assets/0bf5576f-94eb-49a4-8ab9-7e5f738e0b13)
 It is an interface where we are talking to Friendly roaster zenbot
 
@@ -115,9 +119,9 @@ To build your application, start by setting up the backend using Flask, ensuring
 
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+ Video
+https://drive.google.com/file/d/1J630xGiOsgGJBo19_Ikohhu2lqQtcFoy/view?usp=drivesdk
+
 
 
 ## Team Contributions
