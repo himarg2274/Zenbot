@@ -11,6 +11,34 @@ body {
     color: #161414;
 }
 
+/* Home Page Styles */
+.home-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f4f7;
+}
+
+.home-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #233549;
+}
+
+.start-chat-btn {
+    padding: 15px 25px;
+    background-color: #233549;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.start-chat-btn:hover {
+    background-color: #14273c;
+}
+
 /* Overlay for character selection */
 .overlay {
     position: absolute;
