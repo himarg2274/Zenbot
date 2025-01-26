@@ -26,8 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const sendBtn = document.getElementById("send-btn");
     const userInput = document.getElementById("user-input");
     const chatbox = document.getElementById("chatbox");
+    const chatForm = document.getElementById('chat-form');
 
-    sendBtn.addEventListener("click", async () => {
+    chatForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
         const userMessage = userInput.value.trim();
         if (userMessage) {
             appendMessage("user-message", userMessage);
