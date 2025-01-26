@@ -1,0 +1,21 @@
+Completed Tasks:
+Frontend Setup:
+
+Created the HTML structure for the splash screen and chat interface.
+Designed the responsive UI with CSS, including smooth transitions, styling for messages, and a clean layout.
+Splash Screen:
+
+Added a welcoming splash screen with a fade-out transition to the chat interface upon clicking the "Enter" button.
+Chat Functionality:
+
+Enabled user input and message submission using the "Send" button and the "Enter" key.
+Implemented message display for both user and bot with distinct styles.
+Typing Indicator:
+
+Integrated a realistic typing indicator ("ZenBot is typing...") to simulate a human-like response delay.
+API Communication:
+
+Set up fetch() calls to communicate with a backend endpoint (/chat) for bot responses.
+Error Handling:
+
+Added fallback messages if the backend fails to respond.
