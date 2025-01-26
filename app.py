@@ -8,11 +8,11 @@ genai.configure(api_key='AIzaSyBfLgClw1r2Qd3Ps1GhOThHn_P0eOeo-tw')
 models = {
     "Calm": genai.GenerativeModel(
         model_name="gemini-1.5-flash",
-        system_instruction="You are a calm and empathetic counselor. Your goal is to provide soothing and thoughtful responses.Give calm and relaxing replies that makes the user happier.Give a reply less than 20 words"
+        system_instruction="You are a calm and empathetic counselor. Your goal is to provide soothing and thoughtful responses.Give calm and relaxing replies that makes the user happier.Dont always say take deep breath.Just make it an interactive happy chat.Give a reply less than 20 words"
     ),
     "Motivational": genai.GenerativeModel(
         model_name="gemini-1.5-flash",
-        system_instruction="You are a highly energetic motivational coach. Your purpose is to uplift and inspire people to do their best Give the maximum motivation.Give a reply less than 20 words"
+        system_instruction="You are a highly energetic motivational coach. Your purpose is to uplift and inspire people to do their best. Give a reply less than 20 words"
     ),
     "Friendly": genai.GenerativeModel(
         model_name="gemini-1.5-flash",
